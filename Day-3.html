@@ -1,0 +1,138 @@
+                         <!-- Name Attribute -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Attribute</title>
+</head>
+<body>
+ <input type="text"placeholder="enter name" id="Username" name="Username"/>
+ <hr/>
+ <br/>
+<form action="/server">
+    <div>
+        <label for="username">Username:</label>
+       <input 
+        type="text"
+        Placeholder="Enter the name"
+        id="username"
+        name="user"/>
+    </div>
+    <div>
+        <label for="password">password:</label>
+        <input type="password"
+         placeholder="enter passwprd"
+        id="password"
+        name="password"/>
+    </div>
+        <button>submit</button>
+        </form>
+    
+    <form>
+    <formation="https:"//www.youtube.com/result"></formation>
+    <input type="text"placeholder="search in your youtube"name="search_q"/>
+    <button>search</button>
+</form>
+
+<!-- Practice Question -6.1 -->
+    <form action = "https://github.com/">
+    <input type="text"placeholder="search in google" name="q"/>
+    <button>search</button>
+</form>
+    
+    <!-- Checkbox-Input Element -->
+       <form action="server">
+        <input type="Checkbox"name="age"id="age"checked/>
+        <label for="age">I am 18+</label>
+        <br/>
+        <button>submit</button>
+     <br/>
+
+  <!-- Practice Question-6.2 (Checkbox check multiple things at a time )-->
+   <div>
+    Choose your subject
+    <br/>
+    <input type="Checkbox"id="math"name="subject"checked/>
+    <label for="math">math</label>
+    <br/>
+     <input type="Checkbox"id="Science"name="subject"checked/>
+    <label for="Science">Science</label>
+    <br/>
+     <input type="Checkbox"id="Physics"name="subject"checked/>
+    <label for="Physics">Physics</label>
+    <br/>
+     <input type="Checkbox"id="Chemistry"name="Chemistry"checked/>
+    <label for="Chemistry">Chemistry</label>
+    <br/>
+   </div>
+
+   <!-- Radio button (It can check only one things at a time)-->
+    <div>
+    Enter the fruits name:
+    <br/>
+    <input type="radio"name="fruit"id="apple"value="apple"/>
+    <label for="apple">Apple</label>
+    <br/>
+    <input type="radio"name="fruit"id="Mango"value="mango"/>
+    <label for="Mango">Mango</label>
+    <br/>
+    <input type="radio"name="fruit"id="Orange"value="Orange"/>
+    <label for="Orange">Orange</label>
+    <br/>
+    <input type="radio"name="fruit"id="Litchi"value="Litchi"/>
+    <label for="Litchi">Litchi</label>
+    </div>
+    <br/>
+
+    <!-- Dropdown (It create multiple option at a time )-->
+     <div>
+    Choose your profession
+     <select name="profession"id="profession">
+     <option>Select your option</option>
+     <option value="Student"selected>Student</option>
+     <option value="Professor">Professor</option>
+     <option value="Developer">Developer</option>
+     <option value="Others">Others</option>
+     </div>
+     <br/>
+
+
+    <!--Range-->
+<label for="Volume">select your volume label:</label>
+<input type="range"
+id="vol"
+min="0"
+max="100"
+set="10"
+value="70"/>
+<br/>
+
+<!--Text area-->
+<label for = "feedback">Please give your valuable feedback:</label>
+<textarea id="feedback"name="feedback"placeholder="write your feedback"></textarea>
+<button>submit</button>
+
+<!-- Practice Question -->
+ <h3>Registration form</h3>
+ <form action="/action">
+    <div>
+ <input type="text"placeholder="first name"name="fname"/>
+<input type="text"placeholder="last name"name="lname"/>
+</div>
+<div>
+    <label for="gender">Please select your gender</label>
+    <select name="gender"id="gender">
+    <option value="M">Male </option>
+    <option value="F">Female </option>
+    <option value="O">Others </option>
+    </select>
+</div>
+Do you agree to all terms of service?
+<input type="checkbox"id="tos-agree"name="tos-agree"/>
+<label for="tos-agree">yes,I agree</label>
+<button>Submit</button>
+</div>
+ </form>
+</body>
+</html>
